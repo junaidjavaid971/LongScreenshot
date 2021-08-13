@@ -9,7 +9,7 @@
     tools:showIn="@layout/app_bar_main">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/btnStart"
         android:layout_width="250dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
@@ -34,7 +34,7 @@
         app:layout_constraintBottom_toTopOf="@+id/view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/btnStart"
         tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <View
@@ -72,10 +72,10 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View All Long Screenshot"
         android:background="@drawable/button_shape"
-        android:textFontWeight="1600"
         android:padding="10dp"
+        android:text="View All Long Screenshot"
+        android:textFontWeight="1600"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
